@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DG Fit contactate con nosotros y sacate todas las dudas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../img/logo-DG.jpg" alt="logo">DG Fitness</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./sucursales.html">Sucursales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./planes.html">Planes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./clases.html">Clases</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown" style="position: relative;">
+                                <button class="btn btn-outline-warning dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Usuario
+                                </button>
+                                <ul class="dropdown-menu dropdown-fijo">
+                                    <li><a class="dropdown-item" href="#">Ingresar</a></li>
+                                    <li><a class="dropdown-item" href="#">Registrarse</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <form id="formulario-contacto">
+        <h2>Contactate con nosotros</h2>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefono">Teléfono o celular:</label>
+        <input type="tel" id="telefono" name="telefono">
+
+        <label for="local">Local de preferencia:</label>
+        <select id="local" name="local">
+            <option value="local1">BUCEO</option>
+            <option value="local2">MALVIN</option>
+            <option value="local3">CENTRO</option>
+            <option value="local4">PARQUE RODO</option>
+            <option value="local5">LAGOMAR</option>
+        </select>
+
+        <label for="mensaje">Mensaje o pregunta:</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
+
+        <label for="cv">¿Querés trabajar con nosotros?</label>
+        <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx">
+
+        <button type="button" class="btn btn-warning">ENVIAR</button>
+    </form>
+
+    <footer>
+        <div class="contenedor-footer">
+            <div class="footer-otras">
+                <ul>
+                    <li>Entrenamientos personalizados</li>
+                    <li>Atención nutricional</li>
+                    <li>Suplementos deportivos</li>
+                    <li>Deportologos y kinesiólogo</li>
+                </ul>
+            </div>
+            <div class="footer-contacto">
+                <ul>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li>Oportunidades laborales</li>
+                    <li>Preguntas frecuentes</li>
+                    <li>Beneficios y Descuentos</li>
+                </ul>
+            </div>
+            <div class="footer-redes">
+                <ul>
+                    <li><img src="../img/redes/instagram.png" alt="icono-instagram"></li>
+                    <li><img src="../img/redes/youtube.png" alt="icono-youtube"></li>
+                    <li><img src="../img/redes/linkedin.png" alt="icono-linkedin"></li>
+                    <li><img src="../img/redes/whatsapp.png" alt="icono-whatsapp"></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
